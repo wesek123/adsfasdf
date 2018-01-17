@@ -1,0 +1,11 @@
+C:\Users\Daniel\Source\Repos\Przychodnia\Przychodnia\bin\Debug\Przychodnia.exe.config
+C:\Users\Daniel\Source\Repos\Przychodnia\Przychodnia\bin\Debug\Przychodnia.exe
+C:\Users\Daniel\Source\Repos\Przychodnia\Przychodnia\bin\Debug\Przychodnia.pdb
+C:\Users\Daniel\Source\Repos\Przychodnia\Przychodnia\obj\Debug\Przychodnia.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Source\Repos\Przychodnia\Przychodnia\obj\Debug\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Source\Repos\Przychodnia\Przychodnia\obj\Debug\Przychodnia.exe
+C:\Users\Daniel\Source\Repos\Przychodnia\Przychodnia\obj\Debug\Przychodnia.pdb
+C:\Users\Jakub\Downloads\Przychodnia-master\Przychodnia-master\Przychodnia\Przychodnia\obj\Debug\Przychodnia.csprojResolveAssemblyReference.cache
+C:\Users\Jakub\Downloads\Przychodnia-master\Przychodnia-master\Przychodnia\Przychodnia\obj\Debug\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\Downloads\Przychodnia-master\Przychodnia-master\Przychodnia\Przychodnia\obj\Debug\Przychodnia.exe
+C:\Users\Jakub\Downloads\Przychodnia-master\Przychodnia-master\Przychodnia\Przychodnia\obj\Debug\Przychodnia.pdb

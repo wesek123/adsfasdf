@@ -1,0 +1,35 @@
+﻿<Window x:Class="S3_Przychodnia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:S3_Przychodnia"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="397.8" Width="786.6">
+    <Grid Margin="0,0,-6.4,-0.6">
+        <Label Content="Imie" HorizontalAlignment="Left" Margin="29,36,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxImieLekarz" HorizontalAlignment="Left" Height="23" Margin="66,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="6,64,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxNazwiskoLekarz" HorizontalAlignment="Left" Height="23" Margin="66,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxSpecjalnosc" HorizontalAlignment="Left" Height="23" Margin="66,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnUstawLekarza" Content="Ustaw Lekarza" HorizontalAlignment="Left" Margin="66,127,0,0" VerticalAlignment="Top" Width="119" Height="23" Click="btnUstawLekarza_Click"/>
+        <Label x:Name="labelTytul" Content="LEKARZ" HorizontalAlignment="Left" Margin="88,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnPokazDodajDoKolejki" Content="Dodaj Do Kolejki" HorizontalAlignment="Left" Margin="296,150,0,0" VerticalAlignment="Top" Width="120" Height="36" Click="btnPokazDodajDoKolejki_Click"/>
+        <Button x:Name="btnWykonajPorade" Content="Wykonaj Porade" HorizontalAlignment="Left" Margin="175,257,0,0" VerticalAlignment="Top" Width="101" Height="36" Click="btnWykonajPorade_Click"/>
+        <Button x:Name="btnWykonajBadanie" Content="Wykonaj Badanie" HorizontalAlignment="Left" Margin="175,298,0,0" VerticalAlignment="Top" Width="101" Height="36" Click="btnWykonajBadanie_Click"/>
+        <Button x:Name="btnGenerujRaport" Content="Generuj Raport" HorizontalAlignment="Left" Margin="297,257,0,0" VerticalAlignment="Top" Width="160" Height="77" Click="btnGenerujRaport_Click"/>
+        <Label Content="Wiek" HorizontalAlignment="Left" Margin="260,94,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxWiek" HorizontalAlignment="Left" Height="23" Margin="297,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73"/>
+        <Label Content="Choroba" HorizontalAlignment="Left" Margin="237,122,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxChoroba" HorizontalAlignment="Left" Height="23" Margin="297,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Imie" HorizontalAlignment="Left" Margin="258,36,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxImiePacjent" HorizontalAlignment="Left" Height="23" Margin="296,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtBoxImie_Copy_TextChanged"/>
+        <Label Content="Nazwisko" HorizontalAlignment="Left" Margin="235,64,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxNazwiskoPacjent" HorizontalAlignment="Left" Height="23" Margin="296,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Specjalnosc" HorizontalAlignment="Left" Margin="-5,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelTytul_Copy" Content="PACJENCI" HorizontalAlignment="Left" Margin="305,10,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockWynik" HorizontalAlignment="Left" Margin="483,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
